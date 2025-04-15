@@ -1,9 +1,9 @@
 ﻿using GreenGuest_Web.Core.Entities;
 using GreenGuest_Web.DataAccess.Contexts;
 using GreenGuest_Web.DataAccess.Interceptors;
+using GreenGuest_Web.DataAccess.ServiceRegistrations;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace GreenGuest_Web
 {
@@ -13,7 +13,7 @@ namespace GreenGuest_Web
 		{
 			var builder = WebApplication.CreateBuilder(args);
 			builder.Services.AddDbContext<AppDbContext>(options =>
-	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+			options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
 			// 🔹 Identity konfiqurasiyası
@@ -23,6 +23,7 @@ namespace GreenGuest_Web
 			// Add services to the container.
 			builder.Services.AddScoped<BaseEntityInterceptor>();
 			builder.Services.AddControllersWithViews();
+			builder.Services.AddDataAccessServices(builder.Configuration);
 
 			var app = builder.Build();
 
