@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\dtos\\appuserdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\dtos\\appuserdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\dtos\\faqitemdtos\\faqitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\dtos\\faqitemdtos\\faqitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\dtos\\settingdtos\\settingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\dtos\\settingdtos\\settingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\dtos\\sliderdtos\\slidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\dtos\\sliderdtos\\slidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\greenguest_web.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\greenguest_web.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.core\\entities\\faqitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\faqitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\abstractions\\exceptions\\ibaseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\abstractions\\exceptions\\ibaseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\abstractions\\dtos\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\abstractions\\dtos\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\validators\\categoryitemvalidators\\categoryitemcreatedtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\validators\\categoryitemvalidators\\categoryitemcreatedtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.core\\entities\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,66 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SliderCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
-              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
-              "RelativeToolTip": "GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\AppUserDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Dtos\\AppUserDtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\AppUserDtos\\LoginDto.cs",
+              "RelativeToolTip": "GreenGuest_Web.Business\\Dtos\\AppUserDtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T18:29:24.562Z",
+              "WhenOpened": "2025-04-16T08:29:41.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "GreenGuest_Web.Core\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\AppUser.cs",
+              "RelativeToolTip": "GreenGuest_Web.Core\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:28:45.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IBaseException.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Abstractions\\Exceptions\\IBaseException.cs",
-              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Abstractions\\Exceptions\\IBaseException.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Abstractions\\Exceptions\\IBaseException.cs",
-              "RelativeToolTip": "GreenGuest_Web.Business\\Abstractions\\Exceptions\\IBaseException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Title": "SettingCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\SettingDtos\\SettingCreateDto.cs",
+              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Dtos\\SettingDtos\\SettingCreateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\SettingDtos\\SettingCreateDto.cs",
+              "RelativeToolTip": "GreenGuest_Web.Business\\Dtos\\SettingDtos\\SettingCreateDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T18:23:19.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IDto.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Abstractions\\Dtos\\IDto.cs",
-              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Abstractions\\Dtos\\IDto.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Abstractions\\Dtos\\IDto.cs",
-              "RelativeToolTip": "GreenGuest_Web.Business\\Abstractions\\Dtos\\IDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T18:21:01.043Z",
+              "WhenOpened": "2025-04-16T08:26:55.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CategoryItemCreateDtoValidation.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Validators\\CategoryItemValidators\\CategoryItemCreateDtoValidation.cs",
-              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Validators\\CategoryItemValidators\\CategoryItemCreateDtoValidation.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Validators\\CategoryItemValidators\\CategoryItemCreateDtoValidation.cs",
-              "RelativeToolTip": "GreenGuest_Web.Business\\Validators\\CategoryItemValidators\\CategoryItemCreateDtoValidation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Title": "FaqItem.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\FaqItem.cs",
+              "RelativeDocumentMoniker": "GreenGuest_Web.Core\\Entities\\FaqItem.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\FaqItem.cs",
+              "RelativeToolTip": "GreenGuest_Web.Core\\Entities\\FaqItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T18:19:53.462Z",
+              "WhenOpened": "2025-04-16T08:18:01.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GreenGuest_Web.Business",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj",
-              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj",
-              "RelativeToolTip": "GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-15T18:14:55.577Z",
+              "Title": "FaqItemCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\FaqItemDtos\\FaqItemCreateDto.cs",
+              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Dtos\\FaqItemDtos\\FaqItemCreateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\FaqItemDtos\\FaqItemCreateDto.cs",
+              "RelativeToolTip": "GreenGuest_Web.Business\\Dtos\\FaqItemDtos\\FaqItemCreateDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:17:51.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\Slider.cs",
+              "RelativeDocumentMoniker": "GreenGuest_Web.Core\\Entities\\Slider.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\Slider.cs",
+              "RelativeToolTip": "GreenGuest_Web.Core\\Entities\\Slider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:13:13.418Z",
               "EditorCaption": ""
             },
             {
@@ -119,15 +136,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FileValidator.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Extensions\\FileValidator.cs",
-              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Extensions\\FileValidator.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Extensions\\FileValidator.cs",
-              "RelativeToolTip": "GreenGuest_Web.Business\\Extensions\\FileValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SliderCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
+              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
+              "RelativeToolTip": "GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvxUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T18:15:58.782Z",
+              "WhenOpened": "2025-04-15T18:29:24.562Z",
               "EditorCaption": ""
             }
           ]

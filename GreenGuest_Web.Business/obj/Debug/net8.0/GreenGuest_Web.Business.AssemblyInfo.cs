@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenGuest_Web.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbe3c91e6a21f2ca0b7e4d894f1b6e7cd2c805ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5694bda9a96434adde2085e1b62224fa2626632")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenGuest_Web.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenGuest_Web.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
