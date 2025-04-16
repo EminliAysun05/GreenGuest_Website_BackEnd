@@ -4,5 +4,6 @@ namespace GreenGuest_Web.Core.Entities;
 
 public class AppUser : IdentityUser
 {
-    public string FullName { get; set; } = null!;
+	public string FirstName { get; set; }
+	public string LastName { get; set; }
 }
