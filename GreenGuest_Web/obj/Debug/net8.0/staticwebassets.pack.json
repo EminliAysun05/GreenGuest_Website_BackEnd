@@ -5,16 +5,100 @@
       "PackagePath": "staticwebassets\\GreenGuest_Web.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\css\\faq.css",
+      "PackagePath": "staticwebassets\\assets\\css\\faq.css"
     },
     {
-      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\css\\footer.css",
+      "PackagePath": "staticwebassets\\assets\\css\\footer.css"
     },
     {
-      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\css\\header.css",
+      "PackagePath": "staticwebassets\\assets\\css\\header.css"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\css\\reset.css",
+      "PackagePath": "staticwebassets\\assets\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\css\\slider.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slider.css"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\icons\\Alt Arrow Right (1).svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\Alt Arrow Right (1).svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\icons\\Alt Arrow Right.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\Alt Arrow Right.png"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\icons\\Alt Arrow Right.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\Alt Arrow Right.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\icons\\f.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\f.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\icons\\i.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\i.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\icons\\l.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\l.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\icons\\name=download.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\name=download.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\icons\\t.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\t.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\images\\Store download button (1).svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Store download button (1).svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\images\\Store download button.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Store download button.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\images\\doodle.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\doodle.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\images\\home1 1 (1).svg",
+      "PackagePath": "staticwebassets\\assets\\images\\home1 1 (1).svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\images\\home1 1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\home1 1.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\images\\logo gg 1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo gg 1.png"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\images\\logo gg 1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo gg 1.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\images\\photo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\photo.svg"
+    },
+    {
+      "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\wwwroot\\lib\\bootstrap\\LICENSE",

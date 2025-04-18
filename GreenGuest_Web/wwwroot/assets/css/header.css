@@ -1,0 +1,159 @@
+@import url("reset.css");
+@import url("responsive.css");
+@import url("main.css");
+@import url("slider.css");
+@import url("faq.css");
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+    transition: background-color 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 60px;
+  }
+  .navbar.scrolled {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+  .logo img {
+    width: 180px;
+    margin-top: 4px;
+  }
+
+  .nav-links ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links ul li {
+    list-style: none;
+    
+  }
+
+  .nav-links ul li a {
+    text-decoration: none;
+    color: #3B3B3B;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+     transition: color 0.3s ease;
+  }
+  .nav-links ul li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2%;
+  height: 2px;
+  width: 0%;
+  background-color: #17a33a;
+  transition: width 0.4s ease;
+}
+
+.nav-links ul li a:hover::after {
+  width: 100%;
+}
+
+  .download-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    background: linear-gradient(90deg, #17a33a 2%, #6dac25 18%, #98b11b 36%, #a4b218 78%, #c2b511 90%);
+    border-radius: 8px;
+  }
+
+  .download-button a {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .download-button svg {
+    stroke: white;
+  }
+
+  .header-container {
+    width: 100%;
+    margin-top: 60px;
+    padding: 80px 60px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .header-left-side {
+    flex: 1;
+    position: relative;
+    margin-left: 80px;
+  }
+
+  .doodles-img {
+    position: absolute;
+    top: -40px;
+    right: 5px;
+  }
+
+  .header-left-side-title h2 {
+    width: 125%;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.4;
+    margin-bottom: 24px;
+  }
+
+  .header-left-side-desc p {
+    font-size: 18px;
+    color: #626262;
+    font-weight: 500;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-bottom: 32px;
+  }
+
+  .header-left-side-imgs {
+    display: flex;
+    gap: 16px;
+  }
+
+  .header-left-side-imgs img {
+    height: 50px;
+  }
+
+  .header-right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-right-side-img img {
+    width: 110%;
+    max-width: 480px;
+  }
+
+ 
+

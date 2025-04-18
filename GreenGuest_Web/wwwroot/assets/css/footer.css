@@ -1,0 +1,41 @@
+footer h5 {
+  font-family: 'Nunito', sans-serif !important;
+  color: #626262;
+  font-size: 17px !important;
+}
+footer a{
+  color: #292728 !important;
+  font-weight: 700 !important ;
+}
+footer a:hover {
+  color: #0e7727 !important;
+  text-decoration: underline; /* ya da none */
+  transition: 0.3s ease;
+}
+
+ footer .down-footer {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: red !important; /* istəyə uyğun */
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  color: #333 !important;
+  flex-wrap: wrap;
+}
+.left-footer-text p {
+  margin: 0;
+  color: #666;
+}
+
+.right-footer-text a {
+  margin-left: 20px;
+  color: #17A33A;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+.right-footer-text a:hover {
+  text-decoration: underline;
+}
