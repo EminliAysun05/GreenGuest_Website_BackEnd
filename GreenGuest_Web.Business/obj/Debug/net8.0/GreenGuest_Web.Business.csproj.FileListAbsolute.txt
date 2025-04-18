@@ -14,3 +14,5 @@ C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web.Business\obj\Debug\n
 C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web.Business\obj\Debug\net8.0\refint\GreenGuest_Web.Business.dll
 C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web.Business\obj\Debug\net8.0\GreenGuest_Web.Business.pdb
 C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web.Business\obj\Debug\net8.0\ref\GreenGuest_Web.Business.dll
+C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web.Business\bin\Debug\net8.0\GreenGuest_Web.DataAccess.dll
+C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web.Business\bin\Debug\net8.0\GreenGuest_Web.DataAccess.pdb

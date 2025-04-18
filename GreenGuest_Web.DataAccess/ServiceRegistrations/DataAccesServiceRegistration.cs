@@ -23,7 +23,7 @@ public static class DataAccesServiceRegistration
 		services.AddMemoryCache();
 
 		_addRepositories(services);
-		_addIdentity(services);
+	//	_addIdentity(services);
 	
 
 		return services;
@@ -40,21 +40,21 @@ public static class DataAccesServiceRegistration
 
 
 
-	private static void _addIdentity(IServiceCollection services)
-	{
-		services.AddIdentity<AppUser, IdentityRole>(options =>
-		{
-			options.Password.RequiredLength = 6;
-			options.Password.RequireNonAlphanumeric = false;
-			options.Password.RequireLowercase = false;
-			options.Password.RequireUppercase = false;
-			options.User.RequireUniqueEmail = true;
-			options.SignIn.RequireConfirmedEmail = true;
-			options.Lockout.AllowedForNewUsers = false;
-			options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-			options.Lockout.MaxFailedAccessAttempts = 3;
+	//private static void _addIdentity(IServiceCollection services)
+	//{
+	//	services.AddIdentity<AppUser, IdentityRole>(options =>
+	//	{
+	//		options.Password.RequiredLength = 6;
+	//		options.Password.RequireNonAlphanumeric = false;
+	//		options.Password.RequireLowercase = false;
+	//		options.Password.RequireUppercase = false;
+	//		options.User.RequireUniqueEmail = true;
+	//		options.SignIn.RequireConfirmedEmail = true;
+	//		options.Lockout.AllowedForNewUsers = false;
+	//		options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+	//		options.Lockout.MaxFailedAccessAttempts = 3;
 
-		}).AddEntityFrameworkStores<AppDbContext>()
-		  .AddDefaultTokenProviders();
-	}
+	//	}).AddEntityFrameworkStores<AppDbContext>()
+	//	  .AddDefaultTokenProviders();
+	//}
 }

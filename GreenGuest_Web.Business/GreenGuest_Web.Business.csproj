@@ -1,26 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="8.0.0" />
-    <PackageReference Include="CloudinaryDotNet" Version="1.27.5" />
-    <PackageReference Include="FluentValidation" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.32" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.3.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<!-- AutoMapper uyğun versiyaları -->
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
 
-  <ItemGroup>
-    <ProjectReference Include="..\GreenGuest_Web.Core\GreenGuest_Web.Core.csproj" />
-    <ProjectReference Include="..\GreenGuest_Web.DataAccess\GreenGuest_Web.DataAccess.csproj" />
-  </ItemGroup>
+		<!-- Digər istifadə etdiklərin -->
+		<PackageReference Include="CloudinaryDotNet" Version="1.27.5" />
+		<PackageReference Include="FluentValidation" Version="8.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.32" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.3.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Layihə içi digər qatlara istinad -->
+		<ProjectReference Include="..\GreenGuest_Web.Core\GreenGuest_Web.Core.csproj" />
+		<ProjectReference Include="..\GreenGuest_Web.DataAccess\GreenGuest_Web.DataAccess.csproj" />
+	</ItemGroup>
 
 </Project>

@@ -150,3 +150,11 @@ C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\obj\Debug\net8.0\ref
 C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\obj\Debug\net8.0\GreenGuest_Web.pdb
 C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\obj\Debug\net8.0\GreenGuest_Web.genruntimeconfig.cache
 C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\obj\Debug\net8.0\ref\GreenGuest_Web.dll
+C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\bin\Debug\net8.0\CloudinaryDotNet.dll
+C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\bin\Debug\net8.0\GreenGuest_Web.Business.dll
+C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\bin\Debug\net8.0\GreenGuest_Web.Business.pdb
+C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\obj\Debug\net8.0\GreenGuest_Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\namjoon\source\repos\GreenGuest_Web\GreenGuest_Web\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
