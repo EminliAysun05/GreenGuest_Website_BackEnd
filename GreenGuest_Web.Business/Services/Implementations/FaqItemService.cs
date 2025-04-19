@@ -73,7 +73,7 @@ public class FaqItemService : IFaqItemService
 			return false;
 		}
 
-		_mapper.Map(entity, dto);
+		_mapper.Map(dto,entity);
 		_faqItemRepository.Update(entity);
 		await _faqItemRepository.SaveChangesAsync();
 		return true;

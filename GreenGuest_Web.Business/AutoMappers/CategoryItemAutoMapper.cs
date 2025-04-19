@@ -8,15 +8,18 @@ public class CategoryItemAutoMapper : Profile
 {
     public CategoryItemAutoMapper()
     {
-		// 1. CreateDto → Entity
-		CreateMap<CategoryItemCreateDto, CategoryItem>();
+        // 1. CreateDto → Entity
+        CreateMap<CategoryItemCreateDto, CategoryItem>();
 
-		// 2. UpdateDto → Entity (null olmayan sahələr mapp olunur)
-		CreateMap<CategoryItemUpdateDto, CategoryItem>()
-			.ForAllMembers(opt =>
-				opt.Condition((src, dest, srcMember) => srcMember != null));
+        // 2. UpdateDto → Entity (null olmayan sahələr mapp olunur)
+        CreateMap<CategoryItemUpdateDto, CategoryItem>()
+            .ForAllMembers(opt =>
+                opt.Condition((src, dest, srcMember) => srcMember != null));
 
-		// 3. Entity → ListDto
-		CreateMap<CategoryItem, CategoryItemListDto>();
-	}
+        // 3. Entity → ListDto
+        CreateMap<CategoryItem, CategoryItemListDto>();
+
+        // 4. Entity → UpdateDto 
+        CreateMap<CategoryItem, CategoryItemUpdateDto>();
+    }
 }

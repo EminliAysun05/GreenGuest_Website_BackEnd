@@ -12,5 +12,6 @@ namespace GreenGuest_Web.Core.Entities
 		public string Title { get; set; } = null!;
 		public string Icon { get; set; } = null!; 
 		public string? ButtonPath { get; set; }
-	}
+        public bool IsDeleted { get; set; } = false;
+    }
 }

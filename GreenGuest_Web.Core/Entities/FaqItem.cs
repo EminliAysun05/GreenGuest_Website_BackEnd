@@ -11,5 +11,6 @@ namespace GreenGuest_Web.Core.Entities
 	{
 		public string Question { get; set; } = null!;
 		public string Answer { get; set; } = null!;
-	}
+        public bool IsDeleted { get; set; } = false;
+    }
 }

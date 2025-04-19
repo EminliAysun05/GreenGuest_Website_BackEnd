@@ -18,5 +18,6 @@ namespace GreenGuest_Web.Business.AutoMappers;
 
 		// 3. Entity → ListDto
 		CreateMap<FaqItem, FaqItemListDto>();
-	}
+		CreateMap<FaqItem, FaqItemUpdateDto>();
+    }
 }

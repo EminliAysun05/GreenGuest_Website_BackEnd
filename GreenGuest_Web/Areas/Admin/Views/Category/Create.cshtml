@@ -1,0 +1,36 @@
+﻿@using GreenGuest_Web.Business.Dtos.CategoryItemDtos
+@model CategoryItemCreateDto
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Yeni Kateqoriya Əlavə Et</h4>
+            <p class="card-description">
+                Əsas forma paneli
+            </p>
+
+            <form asp-action="Create" method="post" class="forms-sample">
+                <div class="form-group">
+                    <label asp-for="Title" class="form-label"></label>
+                    <input asp-for="Title" class="form-control" placeholder="Məsələn: Qonaqlama" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Icon" class="form-label"></label>
+                    <input asp-for="Icon" class="form-control" placeholder="Məsələn: fa fa-home" />
+                    <span asp-validation-for="Icon" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ButtonPath" class="form-label"></label>
+                    <input asp-for="ButtonPath" class="form-control" placeholder="/categories/qonaqlama" />
+                    <span asp-validation-for="ButtonPath" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary me-2">Əlavə et</button>
+                <a asp-action="Index" class="btn btn-light">Ləğv et</a>
+            </form>
+        </div>
+    </div>
+</div>
