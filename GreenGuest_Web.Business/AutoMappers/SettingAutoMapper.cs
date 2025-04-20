@@ -23,7 +23,9 @@ namespace GreenGuest_Web.Business.AutoMappers
 
 			// 3. Entity → ListDto
 			CreateMap<Setting, SettingListDto>();
-		}
+			CreateMap<Setting, SettingUpdateDto>()
+                .ForMember(dest => dest.Value, opt => opt.Ignore()); 
+        }
 	}
 	
 }

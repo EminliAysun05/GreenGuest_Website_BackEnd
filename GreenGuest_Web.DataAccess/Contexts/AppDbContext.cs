@@ -40,8 +40,8 @@ namespace GreenGuest_Web.DataAccess.Contexts
 			modelBuilder.Entity<Slider>().HasQueryFilter(x => EF.Property<bool>(x, "IsDeleted") == false);
 			modelBuilder.Entity<CategoryItem>().HasQueryFilter(x => EF.Property<bool>(x, "IsDeleted") == false);
 			modelBuilder.Entity<FaqItem>().HasQueryFilter(x => EF.Property<bool>(x, "IsDeleted") == false);
-
-		}
+            modelBuilder.Entity<Setting>().HasQueryFilter(x => EF.Property<bool>(x, "IsDeleted") == false);
+        }
 
 
 	}

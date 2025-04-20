@@ -19,5 +19,7 @@ public class SliderAutoMapper : Profile
 
 		// 3. Entity → ListDto
 		CreateMap<Slider, SliderListDto>();
-	}
+		CreateMap<Slider, SliderUpdateDto>()
+            .ForMember(dest => dest.Image, opt => opt.Ignore()); 
+    }
     }

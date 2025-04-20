@@ -1,0 +1,62 @@
+﻿@using GreenGuest_Web.Business.Dtos.SliderDtos
+@model List<SliderListDto>
+
+<div class="container-fluid px-4">
+    <div class="row">
+        <div class="col-12 grid-margin stretch-card">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="card-title">Slider Siyahısı</h4>
+                        <a asp-action="Create" class="btn btn-primary">+ Yeni Slider Əlavə Et</a>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Başlıq</th>
+                                    <th>Təsvir</th>
+                                    <th>Şəkil</th>
+                                    <th>Button Path</th>
+                                    <th class="text-end">Əməliyyatlar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.Any())
+                                {
+                                    int count = 1;
+                                    foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@count</td>
+                                            <td>@item.Title</td>
+                                            <td>@item.Description</td>
+                                            <td>
+                                                <img src="@item.ImagePath" alt="slider" width="100" />
+                                            </td>
+                                            <td>@item.ButtonPath</td>
+                                            <td class="text-end">
+                                                <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-sm btn-warning me-2">Yenilə</a>
+                                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger"
+                                                   onclick="return confirm('Bu slideri silmək istədiyinizə əminsiniz?')">Sil</a>
+                                            </td>
+                                        </tr>
+                                        count++;
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="6" class="text-center text-muted">Slider tapılmadı.</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

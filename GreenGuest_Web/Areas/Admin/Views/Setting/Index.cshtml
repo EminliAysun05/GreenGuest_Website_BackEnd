@@ -1,0 +1,55 @@
+﻿@using GreenGuest_Web.Business.Dtos.SettingDtos
+@model List<SettingListDto>
+
+<div class="container-fluid px-4">
+    <div class="row">
+        <div class="col-12 grid-margin stretch-card">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title">Ayarlar (Settings)</h4>
+
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Key</th>
+                                    <th>Dəyər</th>
+                                    <th class="text-end">Əməliyyatlar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.Any())
+                                {
+                                    int count = 1;
+                                    foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@count</td>
+                                            <td>@item.Key</td>
+                                            <td>@item.Value</td>
+                                            <td class="text-end">
+                                                <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-sm btn-warning me-2">Yenilə</a>
+                                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger"
+                                                   onclick="return confirm('Bu settingi silmək istədiyinizə əminsiniz?')">Sil</a>
+                                            </td>
+
+                                        </tr>
+                                        count++;
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="4" class="text-center">Heç bir ayar tapılmadı.</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

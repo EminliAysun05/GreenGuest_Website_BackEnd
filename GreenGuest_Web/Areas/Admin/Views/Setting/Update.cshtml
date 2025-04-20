@@ -1,0 +1,15 @@
+﻿@using GreenGuest_Web.Business.Dtos.SettingDtos
+@model SettingUpdateDto
+
+<form asp-action="Update" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group mb-3">
+        <label asp-for="Value" class="form-label">Dəyər</label>
+        <input asp-for="Value" class="form-control" />
+        <span asp-validation-for="Value" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Yadda saxla</button>
+    <a asp-action="Index" class="btn btn-light">Geri</a>
+</form>

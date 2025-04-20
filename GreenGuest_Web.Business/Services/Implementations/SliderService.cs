@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using GreenGuest_Web.Business.Dtos.SliderDtos;
+using GreenGuest_Web.Business.Exceptions;
 using GreenGuest_Web.Business.Extensions;
 using GreenGuest_Web.Business.Services.Abstractions;
 using GreenGuest_Web.Core.Entities;
@@ -27,13 +28,13 @@ public class SliderService : ISliderService
 		if (!ModelState.IsValid)
 			return false;
 
-		if (dto.Image.ValidateType())
+		if (!dto.Image.ValidateType())
 		{
 			ModelState.AddModelError("Image", "Şəkil formatı düzgün deyil.");
 			return false;
 		}
 
-		if (dto.Image.ValidateSize(2))
+		if (!dto.Image.ValidateSize(2))
 		{
 			ModelState.AddModelError("Image", "Şəkil ölçüsü 2MB-dan böyükdür.");
 			return false;
@@ -60,10 +61,18 @@ public class SliderService : ISliderService
 		}
 	}
 
-	public Task<SliderUpdateDto> GetUpdatedDtoAsync(int id)
+	public async Task<SliderUpdateDto> GetUpdatedDtoAsync(int id)
 	{
-		throw new NotImplementedException();
-	}
+        var entity = await _sliderRepository.GetByIdAsync(id);
+
+        if (entity == null)
+            throw new NotFoundException("Slider tapılmadı.");
+
+        var dto = _mapper.Map<SliderUpdateDto>(entity);
+        dto.ImagePath = entity.ImagePath; 
+
+        return dto;
+    }
 
 	public async Task<List<SliderListDto>> ListAsync()
 	{

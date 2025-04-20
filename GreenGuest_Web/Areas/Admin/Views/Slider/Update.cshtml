@@ -1,0 +1,35 @@
+﻿@using GreenGuest_Web.Business.Dtos.SliderDtos
+@model SliderUpdateDto
+
+<form asp-action="Update" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group mb-3">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group mb-3">
+        <label>Mövcud Şəkil</label><br />
+        <img src="@Model.ImagePath" width="120" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Image">Yeni şəkil seç (əgər dəyişmək istəsən)</label>
+        <input asp-for="Image" class="form-control" type="file" />
+        <span asp-validation-for="Image" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="ButtonPath"></label>
+        <input asp-for="ButtonPath" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Yadda saxla</button>
+    <a asp-action="Index" class="btn btn-light">Geri</a>
+</form>
