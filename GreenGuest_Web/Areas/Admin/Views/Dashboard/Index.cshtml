@@ -1,1 +1,51 @@
-﻿
+﻿@using GreenGuest_Web.Areas.Admin.ViewModel
+@model HomeVM
+
+<!-- SLIDER -->
+@if (Model.Sliders.Any())
+{
+    <section id="slider" class="swiper">
+        <div class="swiper-wrapper">
+            @foreach (var item in Model.Sliders)
+            {
+                <div class="swiper-slide">
+                    <img src="@item.ImagePath" />
+                    <div class="caption">
+                        <h2>@item.Title</h2>
+                        <p>@item.Description</p>
+                        @if (!string.IsNullOrEmpty(item.ButtonPath))
+                        {
+                            <a href="@item.ButtonPath" class="btn btn-primary">Ətraflı</a>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+}
+
+<!-- CATEGORIES -->
+<section id="offers">
+    <div class="row">
+        @foreach (var category in Model.Categories)
+        {
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <i class="@category.Icon" style="font-size: 30px;"></i>
+                    <h5>@category.Title</h5>
+                    <a href="@category.ButtonPath" class="btn btn-outline-success">Keçid</a>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<!-- FOOTER INFO - SETTINGS -->
+<footer>
+    <div class="container">
+        @foreach (var setting in Model.Settings)
+        {
+            <p><strong>@setting.Key:</strong> @setting.Value</p>
+        }
+    </div>
+</footer>

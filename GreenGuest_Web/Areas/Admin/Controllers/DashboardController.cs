@@ -1,13 +1,46 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using GreenGuest_Web.Areas.Admin.ViewModel;
+using GreenGuest_Web.Business.Services.Abstractions;
+using Microsoft.AspNetCore.Mvc;
 
 namespace GreenGuest_Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class DashboardController : Controller
     {
-        public IActionResult Index()
+        private readonly ISliderService _sliderService;
+        private readonly ISettingService _settingService;
+        private readonly ICategoryItemService _categoryItemService;
+        private readonly IFaqItemService _faqItemService;
+
+        public DashboardController(
+            ISliderService sliderService,
+            ISettingService settingService,
+            ICategoryItemService categoryItemService,
+            IFaqItemService faqItemService)
         {
-            return View();
+            _sliderService = sliderService;
+            _settingService = settingService;
+            _categoryItemService = categoryItemService;
+            _faqItemService = faqItemService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var sliders = await _sliderService.ListAsync();
+            var settings = await _settingService.ListAsync();
+            var categories = await _categoryItemService.ListAsync();
+            var faqs = await _faqItemService.ListAsync();
+
+            var vm = new HomeVM
+            {
+                Sliders = sliders,
+                Settings = settings,
+                Categories = categories,
+                Faqs = faqs
+            };
+
+            return View(vm);
         }
     }
 }
+
