@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj": {}
+    "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj": {
+    "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj",
+        "projectUniqueName": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj",
         "projectName": "GreenGuest_Web.Core",
-        "projectPath": "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj",
+        "projectPath": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj",
         "packagesPath": "C:\\Users\\namjoon\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\obj\\",
         "projectStyle": "PackageReference",

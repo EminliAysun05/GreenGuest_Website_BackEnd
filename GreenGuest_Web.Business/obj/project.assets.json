@@ -7094,9 +7094,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj",
+      "projectUniqueName": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj",
       "projectName": "GreenGuest_Web.Business",
-      "projectPath": "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj",
+      "projectPath": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj",
       "packagesPath": "C:\\Users\\namjoon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\obj\\",
       "projectStyle": "PackageReference",
@@ -7120,11 +7120,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj": {
-              "projectPath": "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj"
+            "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj": {
+              "projectPath": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj"
             },
-            "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\namjoon\\Source\\Repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj"
+            "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj"
             }
           }
         }

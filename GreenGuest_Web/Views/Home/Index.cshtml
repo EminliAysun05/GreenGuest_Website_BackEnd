@@ -2,159 +2,174 @@
 @model HomeVM
 
 @{
-    ViewData["Title"] = "GreenGuest Ana Səhifə";
+	ViewData["Title"] = "GreenGuest Ana Səhifə";
 }
 
 <header>
-    <div class="header-container" id="main">
-        <div class="header-left-side">
-            <div class="doodles-img">
-                <img src="~/assets/images/doodle.svg" alt="" />
-            </div>
-            <div class="header-left-side-title">
-                <h2>
-                    Kənd həyatı gözəlliklərini
-                    <span style="color: #17a33a">asanlıqla</span> kəşf et
-                </h2>
-            </div>
-            <div class="header-left-side-desc">
-                <p>
-                    @Model.Settings.FirstOrDefault(s => s.Key == "HeaderDescription")?.Value
-                </p>
-            </div>
-            <div class="header-left-side-imgs">
-                <img src="~/assets/images/Store download button.svg" alt="Google Play" />
-                <img src="~/assets/images/Store download button (1).svg" alt="App Store" />
-            </div>
-        </div>
-        <div class="header-right-side">
-            <div class="header-right-side-img">
-                <img src="~/assets/images/photo.svg" alt="Kənd həyatı vizual" />
-            </div>
-        </div>
-    </div>
+	<div class="header-container" id="main">
+		<div class="header-left-side">
+			<div class="doodles-img">
+				<img src="~/assets/images/doodle.svg" alt="" />
+			</div>
+			<div class="header-left-side-title">
+				<h2>
+					Kənd həyatı gözəlliklərini
+					<span style="color: #17a33a">asanlıqla</span> kəşf et
+				</h2>
+			</div>
+			<div class="header-left-side-desc">
+				<p>
+					@Model.Settings.FirstOrDefault(s => s.Key == "HeaderDescription")?.Value
+				</p>
+			</div>
+			<div class="header-left-side-imgs">
+				<img src="~/assets/images/Store download button.svg" alt="Google Play" />
+				<img src="~/assets/images/Store download button (1).svg" alt="App Store" />
+			</div>
+		</div>
+		<div class="header-right-side">
+			<div class="header-right-side-img">
+				<img src="~/assets/images/photo.svg" alt="Kənd həyatı vizual" />
+			</div>
+		</div>
+	</div>
 </header>
 
 <main class="need">
-    <div class="top-needed">
-        <p>həm təbiətin gözəlliyini özün ilə apar</p>
-        <p>Gəl, həm qonaq ol, həm təbiətin gözəlliyini özün ilə apar</p>
-        <p>Gəl, həm qonaq ol, həm təbiətin gözəlliyini özün ilə apar</p>
-    </div>
+	<div class="top-needed">
+		<p>həm təbiətin gözəlliyini özün ilə apar</p>
+		<p>Gəl, həm qonaq ol, həm təbiətin gözəlliyini özün ilə apar</p>
+		<p>Gəl, həm qonaq ol, həm təbiətin gözəlliyini özün ilə apar</p>
+	</div>
 
-    <section class="need-section" id="offers">
-        <h2>Hazırda nəyə ehtiyacın var?</h2>
-        <div class="need-grid">
-            @foreach (var category in Model.Categories)
-            {
-                <a href="@category.ButtonPath" class="need-item">
-                    @category.Title
-                    <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-                </a>
-            }
-        </div>
-    </section>
+	<section class="need-section" id="offers">
+		<h2>Hazırda nəyə ehtiyacın var?</h2>
+		<div class="need-grid">
+			@foreach (var category in Model.Categories)
+			{
 
-    <section class="all-needed-app">
-        <div class="all-needed-app-title">
-            <h2>Ehtiyacın olan hər şey bir mobil tətbiqdə</h2>
-            <p>
-                GreenGuest ilə kənd həyatının bütün gözəlliklərini sadə və rahat
-                şəkildə kəşf edə bilərsən. İstədiyin hər an təbii məhsullar, rahat
-                evlər və maraqlı fəaliyyətlər əlindədir. Kənddəki ən gözəl
-                təcrübələri yaşa, təbiətə yaxınlaş və bütün bunları bir mobil tətbiq
-                vasitəsilə birbaşa əldə et.
-            </p>
-        </div>
-    </section>
+				@* <style>
+					.test{
+						display:flex;
+						align-items:center;
 
-    <section class="green-slider-section">
-        <div class="swiper">
-            <div class="swiper-wrapper">
-                @if (Model.Sliders != null && Model.Sliders.Any())
-                {
-                    foreach (var slider in Model.Sliders)
-                    {
-                        <div class="swiper-slide">
-                            <div class="slide-body">
-                                <div class="slide-left">
-                                    <h2>@slider.Title</h2>
-                                    <p>@slider.Description</p>
-                                    <div class="store-buttons">
-                                        <img src="~/assets/images/Store download button.svg" alt="Google Play" />
-                                        <img src="~/assets/images/Store download button (1).svg" alt="App Store" />
-                                    </div>
-                                </div>
-                                <div class="slide-right">
-                                    <img src="@slider.ImagePath" alt="@slider.Title" />
-                                </div>
-                            </div>
-                        </div>
-                    }
-                }
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-scrollbar"></div>
-        </div>
-    </section>
+					}
 
-    <div class="freq-text">
-        <h2 style="font-size: 52px; text-align: center; font-weight: 700">
-            Tez-tez soruşulan suallar
-        </h2>
-    </div>
+					.test img{
+						width:60px;
+						height:60px;
+					}
 
-    <section class="faq-section container py-5" id="help">
-        <div class="accordion" id="faqAccordion">
-            @foreach (var faq in Model.Faqs)
-            {
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading-@faq.Id">
-                        <button class="accordion-button custom-faq-btn collapsed override-faq-font"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapse-@faq.Id"
-                                aria-expanded="false"
-                                aria-controls="collapse-@faq.Id">
-                            @faq.Question
-                            <span class="icon"></span>
-                        </button>
-                    </h2>
-                    <div id="collapse-@faq.Id"
-                         class="accordion-collapse collapse"
-                         aria-labelledby="heading-@faq.Id"
-                         data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            @faq.Answer
-                        </div>
-                    </div>
-                </div>
-            }
-        </div>
-    </section>
+				</style> *@
+				<a href="@category.ButtonPath" class="need-item test">
+					@* <img src="~/assets/images/apple-119.png" alt="" /> *@
+					@category.Title
+					<img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
+				</a>
+			}
+		</div>
+	</section>
 
-    <section class="call-to-action">
-        <div class="cta-box">
-            <h2>
-                Sakit, təbii və yadda qalan kənd təcrübəni <br />
-                indi başlatmağa hazırsan?
-            </h2>
-            <div class="cta-stores">
-                <img src="~/assets/images/Store download button.svg" alt="Google Play" />
-                <img src="~/assets/images/Store download button (1).svg" alt="App Store" />
-            </div>
-        </div>
-    </section>
+	<section class="all-needed-app">
+		<div class="all-needed-app-title">
+			<h2>Ehtiyacın olan hər şey bir mobil tətbiqdə</h2>
+			<p>
+				GreenGuest ilə kənd həyatının bütün gözəlliklərini sadə və rahat
+				şəkildə kəşf edə bilərsən. İstədiyin hər an təbii məhsullar, rahat
+				evlər və maraqlı fəaliyyətlər əlindədir. Kənddəki ən gözəl
+				təcrübələri yaşa, təbiətə yaxınlaş və bütün bunları bir mobil tətbiq
+				vasitəsilə birbaşa əldə et.
+			</p>
+		</div>
+	</section>
+
+	<section class="green-slider-section">
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				@if (Model.Sliders != null && Model.Sliders.Any())
+				{
+					foreach (var slider in Model.Sliders)
+					{
+						<div class="swiper-slide">
+							<div class="slide-body">
+								<div class="slide-left">
+									<h2>@slider.Title</h2>
+									<p>@slider.Description</p>
+									<div class="store-buttons">
+										<img src="~/assets/images/Store download button.svg" alt="Google Play" />
+										<img src="~/assets/images/Store download button (1).svg" alt="App Store" />
+									</div>
+								</div>
+								<div class="slide-right">
+									<img src="@slider.ImagePath" alt="@slider.Title" />
+								</div>
+							</div>
+						</div>
+					}
+				}
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-scrollbar"></div>
+		</div>
+	</section>
+
+	<div class="freq-text">
+		<h2 style="font-size: 52px; text-align: center; font-weight: 700">
+			Tez-tez soruşulan suallar
+		</h2>
+	</div>
+
+	<section class="faq-section container py-5" id="help">
+		<div class="accordion" id="faqAccordion">
+			@foreach (var faq in Model.Faqs)
+			{
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="heading-@faq.Id">
+						<button class="accordion-button custom-faq-btn collapsed override-faq-font"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapse-@faq.Id"
+								aria-expanded="false"
+								aria-controls="collapse-@faq.Id">
+							@faq.Question
+							<span class="icon"></span>
+						</button>
+					</h2>
+					<div id="collapse-@faq.Id"
+						 class="accordion-collapse collapse"
+						 aria-labelledby="heading-@faq.Id"
+						 data-bs-parent="#faqAccordion">
+						<div class="accordion-body">
+							@faq.Answer
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</section>
+
+	<section class="call-to-action">
+		<div class="cta-box">
+			<h2>
+				Sakit, təbii və yadda qalan kənd təcrübəni <br />
+				indi başlatmağa hazırsan?
+			</h2>
+			<div class="cta-stores">
+				<img src="~/assets/images/Store download button.svg" alt="Google Play" />
+				<img src="~/assets/images/Store download button (1).svg" alt="App Store" />
+			</div>
+		</div>
+	</section>
 </main>
 
 <script>
-    const swiper = new Swiper('.swiper', {
-        loop: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-        }
-    });
+	const swiper = new Swiper('.swiper', {
+		loop: true,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev'
+		}
+	});
 </script>

@@ -34,7 +34,7 @@ public class SliderService : ISliderService
             return false;
         }
 
-        if (!dto.Image.ValidateSize(2))
+        if (!dto.Image.ValidateSize(50))
         {
             ModelState.AddModelError("Image", "Şəkil ölçüsü 2MB-dan böyükdür.");
             return false;
