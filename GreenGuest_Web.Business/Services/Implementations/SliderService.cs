@@ -12,112 +12,116 @@ namespace GreenGuest_Web.Business.Services.Implementations;
 
 public class SliderService : ISliderService
 {
-	private readonly ISliderRepository _sliderRepository;
-	private readonly IMapper _mapper;
-	private readonly ICloudinaryService _cloudinaryService;
+    private readonly ISliderRepository _sliderRepository;
+    private readonly IMapper _mapper;
+    private readonly ICloudinaryService _cloudinaryService;
 
-	public SliderService(ISliderRepository sliderRepository, IMapper mapper, ICloudinaryService cloudinaryService)
-	{
-		_sliderRepository = sliderRepository;
-		_mapper = mapper;
-		_cloudinaryService = cloudinaryService;
-	}
+    public SliderService(ISliderRepository sliderRepository, IMapper mapper, ICloudinaryService cloudinaryService)
+    {
+        _sliderRepository = sliderRepository;
+        _mapper = mapper;
+        _cloudinaryService = cloudinaryService;
+    }
 
-	public async Task<bool> CreateAsync(SliderCreateDto dto, ModelStateDictionary ModelState)
-	{
-		if (!ModelState.IsValid)
-			return false;
+    public async Task<bool> CreateAsync(SliderCreateDto dto, ModelStateDictionary ModelState)
+    {
+        if (!ModelState.IsValid)
+            return false;
 
-		if (!dto.Image.ValidateType())
-		{
-			ModelState.AddModelError("Image", "Şəkil formatı düzgün deyil.");
-			return false;
-		}
+        if (!dto.Image.ValidateType())
+        {
+            ModelState.AddModelError("Image", "Şəkil formatı düzgün deyil.");
+            return false;
+        }
 
-		if (!dto.Image.ValidateSize(2))
-		{
-			ModelState.AddModelError("Image", "Şəkil ölçüsü 2MB-dan böyükdür.");
-			return false;
-		}
+        if (!dto.Image.ValidateSize(2))
+        {
+            ModelState.AddModelError("Image", "Şəkil ölçüsü 2MB-dan böyükdür.");
+            return false;
+        }
 
-		var imageUrl = await _cloudinaryService.FileCreateAsync(dto.Image);
-		var entity = _mapper.Map<Slider>(dto);
-		entity.ImagePath = imageUrl;
+        var imageUrl = await _cloudinaryService.FileCreateAsync(dto.Image);
+        var entity = _mapper.Map<Slider>(dto);
+        entity.ImagePath = imageUrl;
 
-		await _sliderRepository.CreateAsync(entity);
-		await _sliderRepository.SaveChangesAsync();
-		return true;
+        await _sliderRepository.CreateAsync(entity);
+        await _sliderRepository.SaveChangesAsync();
+        return true;
 
-	}
+    }
 
-	public async Task DeleteAsync(int id)
-	{
-		var entity = await _sliderRepository.GetByIdAsync(id);
-		if(entity is not null)
-		{
-			await _cloudinaryService.FileDeleteAsync(entity.ImagePath);
-			_sliderRepository.Delete(entity);
-			await _sliderRepository.SaveChangesAsync();
-		}
-	}
+    public async Task DeleteAsync(int id)
+    {
+        var entity = await _sliderRepository.GetByIdAsync(id);
+        if (entity is not null)
+        {
+            await _cloudinaryService.FileDeleteAsync(entity.ImagePath);
+            _sliderRepository.Delete(entity);
+            await _sliderRepository.SaveChangesAsync();
+        }
+    }
 
-	public async Task<SliderUpdateDto> GetUpdatedDtoAsync(int id)
-	{
+    public async Task<SliderUpdateDto> GetUpdatedDtoAsync(int id)
+    {
         var entity = await _sliderRepository.GetByIdAsync(id);
 
         if (entity == null)
             throw new NotFoundException("Slider tapılmadı.");
 
         var dto = _mapper.Map<SliderUpdateDto>(entity);
-        dto.ImagePath = entity.ImagePath; 
+        dto.ImagePath = entity.ImagePath;
 
         return dto;
     }
 
-	public async Task<List<SliderListDto>> ListAsync()
-	{
-		var entities = await _sliderRepository.GetAll().ToListAsync();
-		return _mapper.Map<List<SliderListDto>>(entities);
-	}
+    public async Task<List<SliderListDto>> ListAsync()
+    {
+        var entities = await _sliderRepository
+        .GetAll()
+        .Where(x => x.IsDeleted == false) // və ya x.IsDeleted == 0
+        .ToListAsync();
 
-	public async Task<bool> UpdateAsync(SliderUpdateDto dto, ModelStateDictionary ModelState)
-	{
-		if (!ModelState.IsValid)
-			return false;
+        return _mapper.Map<List<SliderListDto>>(entities);
+    }
 
-		var entity = await _sliderRepository.GetByIdAsync(dto.Id);
-		if (entity == null)
-		{
-			ModelState.AddModelError("", "Slider tapılmadı.");
-			return false;
-		}
+    public async Task<bool> UpdateAsync(SliderUpdateDto dto, ModelStateDictionary ModelState)
+    {
+        if (!ModelState.IsValid)
+            return false;
 
-		if (dto.Image is not null)
-		{
-			if (!dto.Image.ValidateType())
-			{
-				ModelState.AddModelError("Image", "Şəkil formatı düzgün deyil.");
-				return false;
-			}
+        var entity = await _sliderRepository.GetByIdAsync(dto.Id);
+        if (entity == null)
+        {
+            ModelState.AddModelError("", "Slider tapılmadı.");
+            return false;
+        }
 
-			if (!dto.Image.ValidateSize(2))
-			{
-				ModelState.AddModelError("Image", "Şəkil ölçüsü maksimum 2MB olmalıdır.");
-				return false;
-			}
+        if (dto.Image is not null)
+        {
+            if (!dto.Image.ValidateType())
+            {
+                ModelState.AddModelError("Image", "Şəkil formatı düzgün deyil.");
+                return false;
+            }
 
-			await _cloudinaryService.FileDeleteAsync(entity.ImagePath);
-			var imageUrl = await _cloudinaryService.FileCreateAsync(dto.Image);
-			entity.ImagePath = imageUrl;
-		}
+            if (!dto.Image.ValidateSize(2))
+            {
+                ModelState.AddModelError("Image", "Şəkil ölçüsü maksimum 2MB olmalıdır.");
+                return false;
+            }
 
-		_mapper.Map(dto, entity);
+            await _cloudinaryService.FileDeleteAsync(entity.ImagePath);
+            var imageUrl = await _cloudinaryService.FileCreateAsync(dto.Image);
+            entity.ImagePath = imageUrl;
+        }
 
-		_sliderRepository.Update(entity);
-		await _sliderRepository.SaveChangesAsync();
+        _mapper.Map(dto, entity);
 
-		return true;
-	}
+        _sliderRepository.Update(entity);
+        await _sliderRepository.SaveChangesAsync();
+
+        return true;
+    }
 }
-	
+
 

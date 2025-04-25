@@ -1,8 +1,15 @@
-﻿<header>
+﻿@using GreenGuest_Web.Areas.Admin.ViewModel
+@model HomeVM
+
+@{
+    ViewData["Title"] = "GreenGuest Ana Səhifə";
+}
+
+<header>
     <div class="header-container" id="main">
         <div class="header-left-side">
             <div class="doodles-img">
-                <img src="=~/assets/images/doodle.svg" alt="" />
+                <img src="~/assets/images/doodle.svg" alt="" />
             </div>
             <div class="header-left-side-title">
                 <h2>
@@ -12,9 +19,7 @@
             </div>
             <div class="header-left-side-desc">
                 <p>
-                    Gözəl bir evdə dincəl, yerli məhsulları dad, yeni yerləri kəşf et.
-                    GreenGuest ilə bütün bu səmimi təcrübələri indi bir arada və
-                    rahatlıqla tapa bilərsən.
+                    @Model.Settings.FirstOrDefault(s => s.Key == "HeaderDescription")?.Value
                 </p>
             </div>
             <div class="header-left-side-imgs">
@@ -29,7 +34,7 @@
         </div>
     </div>
 </header>
-<!--HEADER SECTION END-->
+
 <main class="need">
     <div class="top-needed">
         <p>həm təbiətin gözəlliyini özün ilə apar</p>
@@ -40,46 +45,16 @@
     <section class="need-section" id="offers">
         <h2>Hazırda nəyə ehtiyacın var?</h2>
         <div class="need-grid">
-            <a href="#" class="need-item">
-                🏡 Sakit kənd evi <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🍎 Orqanik meyvələr <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🐄 Ferma gəzintisi <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🥖 İsti təndir çörəyi <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🍇 Meyvə yığımı təcrübəsi
-                <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🧀 Kənd pendiri <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🏔️ Dağ gəzintisi <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🍯 Təbii bal <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🌸 Çiçək yığımı <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🪺 Ev yumurtası <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🌾 Bağda səhər işləri <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
-            <a href="#" class="need-item">
-                🍳 Kənd səhər yeməyi <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
-            </a>
+            @foreach (var category in Model.Categories)
+            {
+                <a href="@category.ButtonPath" class="need-item">
+                    @category.Title
+                    <img src="~/assets/icons/Alt Arrow Right.svg" alt="" />
+                </a>
+            }
         </div>
     </section>
-    <!--ALL NEEDED SECTION START-->
+
     <section class="all-needed-app">
         <div class="all-needed-app-title">
             <h2>Ehtiyacın olan hər şey bir mobil tətbiqdə</h2>
@@ -92,56 +67,31 @@
             </p>
         </div>
     </section>
-    <!--ALL NEEDED SECTION START-->
-    <!--GREEN SLIDER SECTION START-->
+
     <section class="green-slider-section">
         <div class="swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="slide-body">
-                        <div class="slide-left">
-                            <h2>Kənd icmaları ilə rahatlıqla əlaqə qurmaq</h2>
-                            <p>
-                                Kənd evində dincəlmək, təbii məhsulları birbaşa mənbədən
-                                almaq və unikal yerli fəaliyyətlərə qoşulmaq istəyirsənsə,
-                                artıq uzun-uzadı axtarışlara ehtiyac yoxdur. Lazım olan hər
-                                şeyi asanlıqla tap, istədiyin insanla birbaşa əlaqə qur.
-                            </p>
-                            <div class="store-buttons">
-                                <img src="~/assets/images/Store download button.svg"
-                                     alt="Google Play" />
-                                <img src="~/assets/images/Store download button (1).svg"
-                                     alt="App Store" />
+                @if (Model.Sliders != null && Model.Sliders.Any())
+                {
+                    foreach (var slider in Model.Sliders)
+                    {
+                        <div class="swiper-slide">
+                            <div class="slide-body">
+                                <div class="slide-left">
+                                    <h2>@slider.Title</h2>
+                                    <p>@slider.Description</p>
+                                    <div class="store-buttons">
+                                        <img src="~/assets/images/Store download button.svg" alt="Google Play" />
+                                        <img src="~/assets/images/Store download button (1).svg" alt="App Store" />
+                                    </div>
+                                </div>
+                                <div class="slide-right">
+                                    <img src="@slider.ImagePath" alt="@slider.Title" />
+                                </div>
                             </div>
                         </div>
-                        <div class="slide-right">
-                            <img src="~/assets/images/home1 1.svg" alt="Telefon Görünüş" />
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="slide-body">
-                        <div class="slide-left">
-                            <h2>Dəyərləndirmə və rəylərlə daha düzgün seçim</h2>
-                            <p>
-                                GreenGuest tətbiqi ilə kənd həyatı təcrübələrini daha
-                                etibarlı və asan şəkildə seçin. İstifadəçilərin verdiyi
-                                dəyərləndirmə və yazdığı rəylər ilə ən yaxşı evləri,
-                                məhsulları və fəaliyyətləri tapın, başqalarının
-                                təcrübələrindən faydalanın və ən yaxşı seçimləri edin.
-                            </p>
-                            <div class="store-buttons">
-                                <img src="~/assets/images/Store download button.svg"
-                                     alt="Google Play" />
-                                <img src="~/assets/images/Store download button (1).svg"
-                                     alt="App Store" />
-                            </div>
-                        </div>
-                        <div class="slide-right">
-                            <img src="~/assets/images/home1 1 (1).svg" alt="Telefon Görünüş" />
-                        </div>
-                    </div>
-                </div>
+                    }
+                }
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
@@ -150,191 +100,41 @@
         </div>
     </section>
 
-    <!--GREEN SLIDER SECTION END-->
-    <!-- FAQ SECTION START -->
     <div class="freq-text">
-        <h2 freq-title style="font-size: 52px; text-align: center; font-weight: 700">
+        <h2 style="font-size: 52px; text-align: center; font-weight: 700">
             Tez-tez soruşulan suallar
         </h2>
     </div>
 
     <section class="faq-section container py-5" id="help">
         <div class="accordion" id="faqAccordion">
-            <!-- Question 1 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button custom-faq-btn collapsed override-faq-font"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne"
-                            aria-expanded="false"
-                            aria-controls="collapseOne">
-                        GreenGuest nədir?
-                        <span class="icon"></span>
-                    </button>
-                </h2>
-                <div id="collapseOne"
-                     class="accordion-collapse collapse"
-                     aria-labelledby="headingOne"
-                     data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        GreenGuest kənd həyatını daha əlçatan və rahat edən
-                        platformadır. Burada ev kirayə edə, təbii məhsullar tapa və
-                        yerli fəaliyyətlərə qoşula bilərsiniz.
+            @foreach (var faq in Model.Faqs)
+            {
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-@faq.Id">
+                        <button class="accordion-button custom-faq-btn collapsed override-faq-font"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapse-@faq.Id"
+                                aria-expanded="false"
+                                aria-controls="collapse-@faq.Id">
+                            @faq.Question
+                            <span class="icon"></span>
+                        </button>
+                    </h2>
+                    <div id="collapse-@faq.Id"
+                         class="accordion-collapse collapse"
+                         aria-labelledby="heading-@faq.Id"
+                         data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            @faq.Answer
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- Question 2 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button custom-faq-btn collapsed override-faq-font"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo"
-                            aria-expanded="false"
-                            aria-controls="collapseTwo">
-                        GreenGuest tətbiqini necə istifadə etməyə başlaya bilərəm?
-                        <span class="icon"></span>
-                    </button>
-                </h2>
-                <div id="collapseTwo"
-                     class="accordion-collapse collapse"
-                     aria-labelledby="headingTwo"
-                     data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        GreenGuest tətbiqini App Store və ya Google Play-dən yükləyin.
-                        Qeydiyyat prosesi tamamlandıqdan sonra kənd evləri, məhsulları
-                        və fəaliyyətləri rahatlıqla tapmağa başlaya bilərsiniz.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Question 3 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button custom-faq-btn collapsed override-faq-font"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree"
-                            aria-expanded="false"
-                            aria-controls="collapseThree">
-                        Mobil tətbiq vasitəsilə ev kirayəsi necə edilir?
-                        <span class="icon"></span>
-                    </button>
-                </h2>
-                <div id="collapseThree"
-                     class="accordion-collapse collapse"
-                     aria-labelledby="headingThree"
-                     data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        İstədiyiniz bölgədəki evləri mobil tətbiq üzərindən axtarın,
-                        rezervasiya edin və rahatlıqla kirayə götürün.
-                    </div>
-                </div>
-            </div>
-            <!-- Question 4 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button custom-faq-btn collapsed override-faq-font"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour"
-                            aria-expanded="false"
-                            aria-controls="collapseFour">
-                        Məhsulları necə əldə edə bilərəm?
-                        <span class="icon"></span>
-                    </button>
-                </h2>
-                <div id="collapseFour"
-                     class="accordion-collapse collapse"
-                     aria-labelledby="headingFour"
-                     data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        Tətbiq vasitəsilə kənd məhsullarını seçin, qiymətləri və
-                        təfərrüatları yoxlayın, sonra birbaşa satıcı ilə əlaqə saxlayın.
-                        Məhsul haqqında razılaşmalarınızı birbaşa satıcı ilə müzakirə
-                        edərək yerində əldə edə bilərsiniz.
-                    </div>
-                </div>
-            </div>
-            <!-- Question 5 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button custom-faq-btn collapsed override-faq-font"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive"
-                            aria-expanded="false"
-                            aria-controls="collapseFive">
-                        Fəaliyyətləri necə tapa bilərəm?
-                        <span class="icon"></span>
-                    </button>
-                </h2>
-                <div id="collapseFive"
-                     class="accordion-collapse collapse"
-                     aria-labelledby="headingFive"
-                     data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        Mobil tətbiq üzərindən "Fəaliyyətlər" bölməsinə keçərək
-                        təcrübələrə baxa, onlara qatılmaq üçün birbaşa əlaqə qura
-                        bilərsiniz.
-                    </div>
-                </div>
-            </div>
-            <!-- Question 6 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSix">
-                    <button class="accordion-button custom-faq-btn collapsed override-faq-font"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseSix"
-                            aria-expanded="false"
-                            aria-controls="collapseSix">
-                        Təhlükəsizlik və etibarlılıq necə təmin olunur?
-                        <span class="icon"></span>
-                    </button>
-                </h2>
-                <div id="collapseSix"
-                     class="accordion-collapse collapse"
-                     aria-labelledby="headingSix"
-                     data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        Bütün istifadəçi və satıcı profilləri mobil tətbiq üzərindən
-                        təsdiqlənir. Əlavə olaraq, tətbiq vasitəsilə verilən rəy və
-                        qiymətləndirmələr doğru seçim etməyinizə kömək edir.
-                    </div>
-                </div>
-            </div>
-            <!-- Question 7 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSeven">
-                    <button class="accordion-button custom-faq-btn collapsed override-faq-font"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseSeven"
-                            aria-expanded="false"
-                            aria-controls="collapseSeven">
-                        GreenGuest tətbiqində necə satış edə bilərəm?
-                        <span class="icon"></span>
-                    </button>
-                </h2>
-                <div id="collapseSeven"
-                     class="accordion-collapse collapse"
-                     aria-labelledby="headingSeven"
-                     data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        Tətbiqdə "Satıcı Ol" bölməsindən istifadə edərək hesabınızı
-                        yaradın. Ev kirayəsi, kənd məhsulları və fəaliyyətlərinizi
-                        yerləşdirin. Sonra istifadəyə verin və müştərilər ilə əlaqə
-                        saxlayın.
-                    </div>
-                </div>
-            </div>
+            }
         </div>
     </section>
-    <!-- FAQ SECTION END -->
-    <!--CALL TO ACTION START-->
+
     <section class="call-to-action">
         <div class="cta-box">
             <h2>
@@ -348,7 +148,6 @@
         </div>
     </section>
 </main>
-<!--CALL TO ACTION END-->
 
 <script>
     const swiper = new Swiper('.swiper', {

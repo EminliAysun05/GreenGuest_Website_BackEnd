@@ -1,193 +1,193 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\",
+  "WorkspaceRootPath": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\viewmodel\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\viewmodel\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\faqitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\faqitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\setting\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\setting\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.core\\entities\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.core\\entities\\faqitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\faqitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.core\\entities\\categoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\categoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\services\\implementations\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\services\\implementations\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\automappers\\settingautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\automappers\\settingautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\setting\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\setting\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\setting\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\setting\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\services\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\services\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\services\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\viewmodel\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\viewmodel\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\faqitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\faqitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\setting\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\setting\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.core\\entities\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.core\\entities\\faqitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\faqitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.core\\entities\\categoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AC974A6-6D9F-42C3-926E-9EEBC50BAC58}|GreenGuest_Web.Core\\GreenGuest_Web.Core.csproj|solutionrelative:greenguest_web.core\\entities\\categoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\services\\implementations\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\services\\implementations\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\automappers\\settingautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\automappers\\settingautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\setting\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\setting\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\setting\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\setting\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\automappers\\sliderautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\automappers\\sliderautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\automappers\\sliderautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.dataaccess\\repositories\\implementations\\settingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.dataaccess\\repositories\\implementations\\settingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|solutionrelative:greenguest_web.dataaccess\\repositories\\implementations\\settingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.dataaccess\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.dataaccess\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|solutionrelative:greenguest_web.dataaccess\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\dtos\\sliderdtos\\slidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\dtos\\sliderdtos\\slidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\dtos\\sliderdtos\\slidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\services\\implementations\\faqitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\services\\implementations\\faqitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\services\\implementations\\faqitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\automappers\\faqitemautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\automappers\\faqitemautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\automappers\\faqitemautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\automappers\\categoryitemautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\automappers\\categoryitemautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\automappers\\categoryitemautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\dtos\\faqitemdtos\\faqitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\dtos\\faqitemdtos\\faqitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\dtos\\faqitemdtos\\faqitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\faqitem\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\faqitem\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\faqitem\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\faqitem\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\faqitem\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\faqitem\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\controllers\\faqitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\controllers\\faqitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\controllers\\faqitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45311FF1-CA45-484C-ADBA-D501CCB187B2}|GreenGuest_Web\\GreenGuest_Web.csproj|solutionrelative:greenguest_web\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\dtos\\categoryitemdtos\\categoryitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\dtos\\categoryitemdtos\\categoryitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\dtos\\categoryitemdtos\\categoryitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.business\\services\\implementations\\categoryitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.business\\services\\implementations\\categoryitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A778B45-CB26-486B-8DA0-E3FFCB458056}|GreenGuest_Web.Business\\GreenGuest_Web.Business.csproj|solutionrelative:greenguest_web.business\\services\\implementations\\categoryitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.dataaccess\\migrations\\20250419100020_addnewcolumntofaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.dataaccess\\migrations\\20250419100020_addnewcolumntofaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|solutionrelative:greenguest_web.dataaccess\\migrations\\20250419100020_addnewcolumntofaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.dataaccess\\migrations\\20250419085426_addingnewcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.dataaccess\\migrations\\20250419085426_addingnewcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|solutionrelative:greenguest_web.dataaccess\\migrations\\20250419085426_addingnewcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.dataaccess\\migrations\\20250420103328_changesonsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.dataaccess\\migrations\\20250420103328_changesonsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|solutionrelative:greenguest_web.dataaccess\\migrations\\20250420103328_changesonsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_web\\greenguest_web.dataaccess\\migrations\\20250420101735_newcolumntosettingandslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|c:\\users\\namjoon\\source\\repos\\greenguest_website_backendad\\greenguest_web.dataaccess\\migrations\\20250420101735_newcolumntosettingandslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F0BB50C-F4CE-4361-9335-7E077308AC0D}|GreenGuest_Web.DataAccess\\GreenGuest_Web.DataAccess.csproj|solutionrelative:greenguest_web.dataaccess\\migrations\\20250420101735_newcolumntosettingandslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -198,7 +198,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -214,36 +214,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "GreenGuest_Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "GreenGuest_Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAGMBAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T11:13:55.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:10:38.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -251,11 +226,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -266,22 +241,22 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Controllers\\HomeController.cs",
               "RelativeToolTip": "GreenGuest_Web\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T10:52:44.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -289,11 +264,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HomeVM.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\ViewModel\\HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\ViewModel\\HomeVM.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\ViewModel\\HomeVM.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\ViewModel\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\ViewModel\\HomeVM.cs",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\ViewModel\\HomeVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -301,11 +276,49 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SliderService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Services\\Implementations\\SliderService.cs",
+              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Services\\Implementations\\SliderService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Services\\Implementations\\SliderService.cs",
+              "RelativeToolTip": "GreenGuest_Web.Business\\Services\\Implementations\\SliderService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwFEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T10:20:49.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GreenGuest_Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GreenGuest_Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T11:13:55.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T11:10:38.688Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 45,
               "Title": "20250420103328_ChangesOnSetting.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Migrations\\20250420103328_ChangesOnSetting.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Migrations\\20250420103328_ChangesOnSetting.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.DataAccess\\Migrations\\20250420103328_ChangesOnSetting.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Migrations\\20250420103328_ChangesOnSetting.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Migrations\\20250420103328_ChangesOnSetting.cs",
               "RelativeToolTip": "GreenGuest_Web.DataAccess\\Migrations\\20250420103328_ChangesOnSetting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -313,11 +326,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "SettingAutoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\AutoMappers\\SettingAutoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\AutoMappers\\SettingAutoMapper.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\AutoMappers\\SettingAutoMapper.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\AutoMappers\\SettingAutoMapper.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\AutoMappers\\SettingAutoMapper.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\AutoMappers\\SettingAutoMapper.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -325,11 +338,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -337,11 +350,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Update.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Update.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Update.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Update.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -349,11 +362,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -361,11 +374,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SettingController.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Controllers\\SettingController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Controllers\\SettingController.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Controllers\\SettingController.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Controllers\\SettingController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Controllers\\SettingController.cs",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Controllers\\SettingController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAA7wDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -373,23 +386,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SliderService.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Services\\Implementations\\SliderService.cs",
-              "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Services\\Implementations\\SliderService.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Services\\Implementations\\SliderService.cs",
-              "RelativeToolTip": "GreenGuest_Web.Business\\Services\\Implementations\\SliderService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T10:20:49.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "SettingService.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Services\\Implementations\\SettingService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Services\\Implementations\\SettingService.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Services\\Implementations\\SettingService.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Services\\Implementations\\SettingService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Services\\Implementations\\SettingService.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\Services\\Implementations\\SettingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -399,9 +400,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "FileValidator.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Extensions\\FileValidator.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Extensions\\FileValidator.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Extensions\\FileValidator.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Extensions\\FileValidator.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Extensions\\FileValidator.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\Extensions\\FileValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -411,9 +412,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "SliderAutoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\AutoMappers\\SliderAutoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\AutoMappers\\SliderAutoMapper.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\AutoMappers\\SliderAutoMapper.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\AutoMappers\\SliderAutoMapper.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\AutoMappers\\SliderAutoMapper.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\AutoMappers\\SliderAutoMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -423,9 +424,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "SettingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Repositories\\Implementations\\SettingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Repositories\\Implementations\\SettingRepository.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.DataAccess\\Repositories\\Implementations\\SettingRepository.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Repositories\\Implementations\\SettingRepository.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Repositories\\Implementations\\SettingRepository.cs",
               "RelativeToolTip": "GreenGuest_Web.DataAccess\\Repositories\\Implementations\\SettingRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -435,9 +436,9 @@
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "20250420101735_NewColumnToSettingAndSlider.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Migrations\\20250420101735_NewColumnToSettingAndSlider.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Migrations\\20250420101735_NewColumnToSettingAndSlider.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.DataAccess\\Migrations\\20250420101735_NewColumnToSettingAndSlider.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Migrations\\20250420101735_NewColumnToSettingAndSlider.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Migrations\\20250420101735_NewColumnToSettingAndSlider.cs",
               "RelativeToolTip": "GreenGuest_Web.DataAccess\\Migrations\\20250420101735_NewColumnToSettingAndSlider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -445,11 +446,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Setting.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\Setting.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\Entities\\Setting.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Core\\Entities\\Setting.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\Setting.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\Entities\\Setting.cs",
               "RelativeToolTip": "GreenGuest_Web.Core\\Entities\\Setting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -457,11 +458,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Slider.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\Slider.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\Entities\\Slider.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Core\\Entities\\Slider.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\Slider.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\Entities\\Slider.cs",
               "RelativeToolTip": "GreenGuest_Web.Core\\Entities\\Slider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -471,9 +472,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -483,9 +484,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -495,9 +496,9 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -507,9 +508,9 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "SliderCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA7wBQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -519,9 +520,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Controllers\\SliderController.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Controllers\\SliderController.cs",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Controllers\\SliderController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAnwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -531,9 +532,9 @@
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "FaqItemService.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Services\\Implementations\\FaqItemService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Services\\Implementations\\FaqItemService.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Services\\Implementations\\FaqItemService.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Services\\Implementations\\FaqItemService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Services\\Implementations\\FaqItemService.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\Services\\Implementations\\FaqItemService.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAgwEgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -543,9 +544,9 @@
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "FaqItemAutoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\AutoMappers\\FaqItemAutoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\AutoMappers\\FaqItemAutoMapper.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\AutoMappers\\FaqItemAutoMapper.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\AutoMappers\\FaqItemAutoMapper.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\AutoMappers\\FaqItemAutoMapper.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\AutoMappers\\FaqItemAutoMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -555,9 +556,9 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Create.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Create.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Create.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Create.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -567,9 +568,9 @@
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Update.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Update.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Update.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Update.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -579,9 +580,9 @@
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "20250419100020_AddNewColumnToFaq.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Migrations\\20250419100020_AddNewColumnToFaq.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Migrations\\20250419100020_AddNewColumnToFaq.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.DataAccess\\Migrations\\20250419100020_AddNewColumnToFaq.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Migrations\\20250419100020_AddNewColumnToFaq.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Migrations\\20250419100020_AddNewColumnToFaq.cs",
               "RelativeToolTip": "GreenGuest_Web.DataAccess\\Migrations\\20250419100020_AddNewColumnToFaq.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -589,11 +590,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FaqItem.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\FaqItem.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\Entities\\FaqItem.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Core\\Entities\\FaqItem.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\FaqItem.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\Entities\\FaqItem.cs",
               "RelativeToolTip": "GreenGuest_Web.Core\\Entities\\FaqItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -601,11 +602,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Index.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Index.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Index.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\FaqItem\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -615,9 +616,9 @@
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "FaqItemController.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Controllers\\FaqItemController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Controllers\\FaqItemController.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Controllers\\FaqItemController.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Controllers\\FaqItemController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Controllers\\FaqItemController.cs",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Controllers\\FaqItemController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwDUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -627,9 +628,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "FaqItemCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\FaqItemDtos\\FaqItemCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Dtos\\FaqItemDtos\\FaqItemCreateDto.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Dtos\\FaqItemDtos\\FaqItemCreateDto.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\FaqItemDtos\\FaqItemCreateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Dtos\\FaqItemDtos\\FaqItemCreateDto.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\Dtos\\FaqItemDtos\\FaqItemCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -639,9 +640,9 @@
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "CategoryItemAutoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\AutoMappers\\CategoryItemAutoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\AutoMappers\\CategoryItemAutoMapper.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\AutoMappers\\CategoryItemAutoMapper.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\AutoMappers\\CategoryItemAutoMapper.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\AutoMappers\\CategoryItemAutoMapper.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\AutoMappers\\CategoryItemAutoMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -651,9 +652,9 @@
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Update.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Update.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Update.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -663,9 +664,9 @@
               "$type": "Document",
               "DocumentIndex": 39,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -673,24 +674,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T08:58:05.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T08:58:05.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -700,9 +700,9 @@
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "20250419085426_AddingNewColumn.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Migrations\\20250419085426_AddingNewColumn.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Migrations\\20250419085426_AddingNewColumn.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.DataAccess\\Migrations\\20250419085426_AddingNewColumn.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Migrations\\20250419085426_AddingNewColumn.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Migrations\\20250419085426_AddingNewColumn.cs",
               "RelativeToolTip": "GreenGuest_Web.DataAccess\\Migrations\\20250419085426_AddingNewColumn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -712,9 +712,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Contexts\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Contexts\\AppDbContext.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.DataAccess\\Contexts\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.DataAccess\\Contexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.DataAccess\\Contexts\\AppDbContext.cs",
               "RelativeToolTip": "GreenGuest_Web.DataAccess\\Contexts\\AppDbContext.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAA5wCoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -724,9 +724,9 @@
               "$type": "Document",
               "DocumentIndex": 42,
               "Title": "CategoryItemService.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Services\\Implementations\\CategoryItemService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Services\\Implementations\\CategoryItemService.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Services\\Implementations\\CategoryItemService.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Services\\Implementations\\CategoryItemService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Services\\Implementations\\CategoryItemService.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\Services\\Implementations\\CategoryItemService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -736,9 +736,9 @@
               "$type": "Document",
               "DocumentIndex": 38,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -748,9 +748,9 @@
               "$type": "Document",
               "DocumentIndex": 41,
               "Title": "CategoryItemCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\CategoryItemDtos\\CategoryItemCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Dtos\\CategoryItemDtos\\CategoryItemCreateDto.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Business\\Dtos\\CategoryItemDtos\\CategoryItemCreateDto.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Business\\Dtos\\CategoryItemDtos\\CategoryItemCreateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Business\\Dtos\\CategoryItemDtos\\CategoryItemCreateDto.cs",
               "RelativeToolTip": "GreenGuest_Web.Business\\Dtos\\CategoryItemDtos\\CategoryItemCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -758,11 +758,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CategoryItem.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\CategoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\Entities\\CategoryItem.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web.Core\\Entities\\CategoryItem.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web.Core\\Entities\\CategoryItem.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web.Core\\Entities\\CategoryItem.cs",
               "RelativeToolTip": "GreenGuest_Web.Core\\Entities\\CategoryItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -772,13 +772,17 @@
               "$type": "Document",
               "DocumentIndex": 40,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "GreenGuest_Web\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Web\\GreenGuest_Web\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T08:49:04.549Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         },
