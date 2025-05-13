@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 
 namespace GreenGuest_Web.Business.Extensions;
-
+//testing
 public static class FileValidator
 {
 	public static bool ValidateSize(this IFormFile file, int mb)
