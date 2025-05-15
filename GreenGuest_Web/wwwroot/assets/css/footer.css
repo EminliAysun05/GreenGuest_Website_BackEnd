@@ -1,11 +1,18 @@
 footer h5 {
-  font-family: 'Nunito', sans-serif !important;
-  color: #626262;
-  font-size: 17px !important;
+    font-family: 'Nunito', sans-serif !important;
+    color: #626262;
+    font-size: 17px !important;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
-footer a{
-  color: #292728 !important;
-  font-weight: 700 !important ;
+footer a {
+    color: #292728 !important;
+    font-weight: 700 !important;
+    font-family: 'Nunito', sans-serif;
+    transition: color 0.3s ease;
+    font-size: 17px !important;
+    line-height: 100% !important;
+    /*letter-spacing: 0% important!;*/
 }
 footer a:hover {
   color: #0e7727 !important;
@@ -38,4 +45,16 @@ footer a:hover {
 
 .right-footer-text a:hover {
   text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+        .footer-bottom .right-footer-text a {
+            margin-left: 0;
+            margin-right: 10px;
+        }
 }
