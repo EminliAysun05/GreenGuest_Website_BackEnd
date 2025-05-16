@@ -1,11 +1,13 @@
 ﻿using GreenGuest_Web.Business.Dtos.CategoryItemDtos;
 using GreenGuest_Web.Business.Services.Abstractions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GreenGuest_Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class CategoryController : Controller
+    
+    public class CategoryController : BaseAdminController
     {
         private readonly ICategoryItemService _categoryItemService;
 

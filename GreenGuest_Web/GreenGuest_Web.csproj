@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GreenGuest_Web.Business\GreenGuest_Web.Business.csproj" />
+    <ProjectReference Include="..\GreenGuest_Web.Core\GreenGuest_Web.Core.csproj" />
     <ProjectReference Include="..\GreenGuest_Web.DataAccess\GreenGuest_Web.DataAccess.csproj" />
   </ItemGroup>
 

@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "GreenGuest_Web.Business": "1.0.0",
+          "GreenGuest_Web.Core": "1.0.0",
           "GreenGuest_Web.DataAccess": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.3.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",

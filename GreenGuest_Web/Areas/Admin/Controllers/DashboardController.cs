@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace GreenGuest_Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class DashboardController : Controller
+    public class DashboardController : BaseAdminController
     {
         private readonly ISliderService _sliderService;
         private readonly ISettingService _settingService;

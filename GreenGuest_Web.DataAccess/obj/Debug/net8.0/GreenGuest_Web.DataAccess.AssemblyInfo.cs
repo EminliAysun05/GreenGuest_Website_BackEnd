@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenGuest_Web.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+680dccd0fd77fa4e3d856e5d7dd0655aeb17bfc9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8db80f429871ec1bf7b5241429151a14a9ac7fbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenGuest_Web.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenGuest_Web.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

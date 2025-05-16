@@ -28,8 +28,13 @@ namespace GreenGuest_Web
 			builder.Services.AddBusinessLayerServices();
 			builder.Services.AddControllersWithViews();
 			builder.Services.AddAuthorization();
-
-			var app = builder.Build();
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30); // sessiyanın müddəti
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+            var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
 			if (!app.Environment.IsDevelopment())
@@ -44,7 +49,8 @@ namespace GreenGuest_Web
 			app.UseHttpsRedirection();
 			app.UseStaticFiles();
 
-			app.UseRouting();
+            app.UseSession();
+            app.UseRouting();
 			app.UseAuthentication();
 			app.UseAuthorization();
 
