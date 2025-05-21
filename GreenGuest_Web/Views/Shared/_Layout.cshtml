@@ -25,41 +25,44 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg py-3 navbar-light bg-white" style="min-height: 65px;">
-        <div class="container d-flex justify-content-between align-items-center">
-
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container">
             <!-- Logo -->
-            <a class="navbar-brand me-3" href="#">
-                <img src="~/assets/images/logo gg 1.svg" alt="Green Guest" style="height: 90px; object-fit: contain;">
+            <a class="navbar-brand" href="#">
+                <img src="~/assets/images/logo gg 1.svg" alt="Green Guest">
             </a>
 
             <!-- Hamburger Menu Button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar3"
-                    aria-controls="myNavbar3" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Centered Menu & Right Button -->
-            <div class="collapse navbar-collapse justify-content-center" id="myNavbar3">
-
-                <!-- Ortadakı menyular -->
+            <!-- Menu & Download Button -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Center Menu Items -->
                 <ul class="navbar-nav mx-auto text-center">
                     <li class="nav-item">
-                        <a class="nav-link px-3 fw-semibold" href="https://library.livecanvas.com/starters" style="font-size: 20px;">Əsas səhifə</a>
+                        <a class="nav-link" href="#">Əsas səhifə</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3 fw-semibold" href="https://library.livecanvas.com/sections/" style="font-size: 20px;">Təkliflərimiz</a>
+                        <a class="nav-link" href="#">Təkliflərimiz</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3 fw-semibold" href="https://library.livecanvas.com/sections/" style="font-size: 20px;">Kömək</a>
+                        <a class="nav-link" href="#">Kömək</a>
                     </li>
                 </ul>
 
-                <!-- Sağdakı "İndi Yüklə" düyməsi -->
-                <div class="d-none d-lg-block ms-auto">
-                    <a class="btn btn-success px-4 py-2" href="#" style=" background: linear-gradient(90deg, #17a33a 2%, #6dac25 18%, #98b11b 36%, #a4b218 78%, #c2b511 90%); border: none;">İndi Yüklə</a>
+                <!-- Desktop Button -->
+                <div class="d-none d-lg-block">
+                    <a class="btn download-btn" href="#">İndi Yüklə</a>
                 </div>
 
+                <!-- Mobile Button -->
+                <div class="d-block d-lg-none text-center mt-3">
+                    <a class="btn download-btn" href="#">İndi Yüklə</a>
+                </div>
             </div>
         </div>
     </nav>

@@ -3,15 +3,16 @@
 @import url("main.css");
 @import url("slider.css");
 @import url("faq.css");
- * {
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  body {
+body {
     font-family: 'Nunito', sans-serif;
-  }
+}
 
 .navbar {
     position: fixed;
@@ -26,77 +27,78 @@
     align-items: center;
     justify-content: space-between;
     padding: 5px 60px;
-  }
-  .navbar.scrolled {
-  background-color: white;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-  .logo img {
+    .navbar.scrolled {
+        background-color: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+.logo img {
     width: 180px;
     margin-top: 4px;
-  }
+}
 
-  .nav-links ul {
+.nav-links ul {
     display: flex;
     align-items: center;
     gap: 40px;
     margin: 0;
     padding: 0;
-  }
-
-  .nav-links ul li {
-    list-style: none;
-    
-  }
-
-  .nav-links ul li a {
-    text-decoration: none;
-    color: #3B3B3B;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1;
-    padding: 0;
-    display: inline-block;
-    position: relative;
-     transition: color 0.3s ease;
-  }
-  .nav-links ul li a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -2%;
-  height: 2px;
-  width: 0%;
-  background-color: #17a33a;
-  transition: width 0.4s ease;
 }
 
-.nav-links ul li a:hover::after {
-  width: 100%;
-}
+    .nav-links ul li {
+        list-style: none;
+    }
 
-  .download-button {
+        .nav-links ul li a {
+            text-decoration: none;
+            color: #3B3B3B;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1;
+            padding: 0;
+            display: inline-block;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+            .nav-links ul li a::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -2%;
+                height: 2px;
+                width: 0%;
+                background-color: #17a33a;
+                transition: width 0.4s ease;
+            }
+
+            .nav-links ul li a:hover::after {
+                width: 100%;
+            }
+
+.download-button {
     display: flex;
     align-items: center;
     gap: 8px;
     padding: 10px 24px;
     background: linear-gradient(90deg, #17a33a 2%, #6dac25 18%, #98b11b 36%, #a4b218 78%, #c2b511 90%);
     border-radius: 8px;
-  }
+}
 
-  .download-button a {
-    color: white;
-    font-weight: 600;
-    font-size: 18px;
-    text-decoration: none;
-  }
+    .download-button a {
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        text-decoration: none;
+    }
 
-  .download-button svg {
-    stroke: white;
-  }
+    .download-button svg {
+        stroke: white;
+    }
 
-  .header-container {
+.header-container {
     width: 100%;
     margin-top: 60px;
     padding: 80px 60px 60px;
@@ -104,56 +106,189 @@
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-  }
+}
 
-  .header-left-side {
+.header-left-side {
     flex: 1;
     position: relative;
     margin-left: 80px;
-  }
+}
 
-  .doodles-img {
+.doodles-img {
     position: absolute;
     top: -40px;
     right: 5px;
-  }
+}
 
-  .header-left-side-title h2 {
+.header-left-side-title h2 {
     width: 125%;
     font-size: 56px;
     font-weight: 800;
     line-height: 1.4;
     margin-bottom: 24px;
-  }
+}
 
-  .header-left-side-desc p {
+.header-left-side-desc p {
     font-size: 18px;
     color: #626262;
     font-weight: 500;
     line-height: 1.6;
     max-width: 600px;
     margin-bottom: 32px;
-  }
+}
 
-  .header-left-side-imgs {
+.header-left-side-imgs {
     display: flex;
     gap: 16px;
-  }
+}
 
-  .header-left-side-imgs img {
-    height: 50px;
-  }
+    .header-left-side-imgs img {
+        height: 50px;
+    }
 
-  .header-right-side {
+.header-right-side {
     flex: 1;
     display: flex;
     justify-content: center;
-  }
+}
 
-  .header-right-side-img img {
+.header-right-side-img img {
     width: 110%;
     max-width: 480px;
-  }
+}
 
- 
+.navbar {
+    min-height: 65px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
 
+.navbar-brand img {
+    height: 80px;
+    object-fit: contain;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    padding: 0 20px !important;
+}
+
+.download-btn {
+    background: linear-gradient(90deg, #17a33a 2%, #6dac25 18%, #98b11b 36%, #a4b218 78%, #c2b511 90%);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 6px;
+}
+
+/* Hero section styles */
+.hero-section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero-left-side {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.hero-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.highlight-text {
+    color: #17a33a;
+    font-weight: bold;
+}
+
+.doodle-image {
+    position: absolute;
+    top: -35px;
+    z-index: -1;
+    width: 50px;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 580px;
+}
+
+.download-images {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+    .download-images img {
+        height: 50px;
+        cursor: pointer;
+    }
+
+.hero-right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-left-side {
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .hero-description {
+        margin: 0 auto 30px;
+    }
+
+    .download-images {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .hero-title {
+        margin-top: 100px;
+        font-size: 36px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .download-images img {
+        height: 40px;
+    }
+}

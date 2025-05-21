@@ -5,35 +5,40 @@
 	ViewData["Title"] = "GreenGuest Ana Səhifə";
 }
 
-<header>
-	<div class="header-container" id="main">
-		<div class="header-left-side">
-			<div class="doodles-img">
-				<img src="~/assets/images/doodle.svg" alt="" />
-			</div>
-			<div class="header-left-side-title">
-				<h2>
-					Kənd həyatı gözəlliklərini
-					<span style="color: #17a33a">asanlıqla</span> kəşf et
-				</h2>
-			</div>
-			<div class="header-left-side-desc">
-				<p>
-					@Model.Settings.FirstOrDefault(s => s.Key == "HeaderDescription")?.Value
-				</p>
-			</div>
-			<div class="header-left-side-imgs">
-				<img src="~/assets/images/Store download button.svg" alt="Google Play" />
-				<img src="~/assets/images/Store download button (1).svg" alt="App Store" />
+<!-- Hero Section Start -->
+<section class="hero-section">
+	<div class="hero-container">
+		<div class="hero-left-side">
+			<h1 class="hero-title">
+				Kənd həyatı
+				<span style="position: relative;">
+					gözəlliklərini
+					<img class="doodle-image" src="~/assets/images/doodle.svg" alt="Doodle">
+				</span>
+				<br>
+				<span class="highlight-text">asanlıqla</span> kəşf et
+			</h1>
+
+			<p class="hero-description">
+				@Model.Settings.FirstOrDefault(s => s.Key == "HeaderDescription")?.Value
+			</p>
+
+			<div class="download-images">
+				<a href="#">
+					<img src="~/assets/images/Store download button (1).svg" alt="Google Play">
+				</a>
+				<a href="#">
+					<img src="~/assets/images/Store download button.svg" alt="App Store">
+				</a>
 			</div>
 		</div>
-		<div class="header-right-side">
-			<div class="header-right-side-img">
-				<img src="~/assets/images/photo.svg" alt="Kənd həyatı vizual" />
-			</div>
+
+		<div class="hero-right-side">
+			<img class="hero-image" src="~/assets/images/photo.svg" alt="Kənd həyatı vizual">
 		</div>
 	</div>
-</header>
+</section>
+<!-- Hero Section End -->
 
 <main class="need">
 	<div class="top-needed">
