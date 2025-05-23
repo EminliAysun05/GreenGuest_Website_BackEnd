@@ -284,23 +284,10 @@
               "RelativeDocumentMoniker": "GreenGuest_Web\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "GreenGuest_Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-20T11:09:04.002Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "reset.css",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\wwwroot\\assets\\css\\reset.css",
-              "RelativeDocumentMoniker": "GreenGuest_Web\\wwwroot\\assets\\css\\reset.css",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\wwwroot\\assets\\css\\reset.css",
-              "RelativeToolTip": "GreenGuest_Web\\wwwroot\\assets\\css\\reset.css",
-              "ViewState": "AgIAADkBAAAAAAAAAAAIwGABAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-21T16:43:10.932Z",
               "EditorCaption": ""
             },
             {
@@ -314,6 +301,22 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "reset.css",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\wwwroot\\assets\\css\\reset.css",
+              "RelativeDocumentMoniker": "GreenGuest_Web\\wwwroot\\assets\\css\\reset.css",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\GreenGuest_Website_BackEndad\\GreenGuest_Web\\wwwroot\\assets\\css\\reset.css",
+              "RelativeToolTip": "GreenGuest_Web\\wwwroot\\assets\\css\\reset.css",
+              "ViewState": "AgIAADkBAAAAAAAAAAAIwGABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T16:43:10.932Z"
             },
             {
               "$type": "Document",
@@ -349,8 +352,7 @@
               "RelativeToolTip": "GreenGuest_Web\\wwwroot\\assets\\css\\responsive.css",
               "ViewState": "AgIAADEAAAAAAAAAAAAIwKUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-15T14:06:37.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T14:06:37.301Z"
             },
             {
               "$type": "Document",
@@ -362,8 +364,7 @@
               "RelativeToolTip": "GreenGuest_Web\\wwwroot\\assets\\css\\header.css",
               "ViewState": "AgIAAOoAAAAAAAAAAAAIwBUBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-15T13:56:14.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T13:56:14.318Z"
             },
             {
               "$type": "Document",
@@ -375,8 +376,7 @@
               "RelativeToolTip": "GreenGuest_Web\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T11:13:55.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T11:13:55.744Z"
             },
             {
               "$type": "Document",
@@ -388,8 +388,7 @@
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAADUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T08:58:05.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T08:58:05.103Z"
             },
             {
               "$type": "Document",
@@ -416,10 +415,6 @@
               "WhenOpened": "2025-05-15T14:21:42.53Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "SliderController.cs",
@@ -429,8 +424,7 @@
               "RelativeToolTip": "GreenGuest_Web\\Areas\\Admin\\Controllers\\SliderController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAkwC8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T19:59:05.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T19:59:05.924Z"
             },
             {
               "$type": "Document",
